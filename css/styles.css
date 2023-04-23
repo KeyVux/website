@@ -1,8 +1,51 @@
 body {
-    background-color: powderblue;
+    margin: 150px;
+    background-color: 	#487cc9;
+    min-width: 1200px;
+    outline: white 1px solid;
   }
 
-p {
+section {
     font-family: 'Times New Roman', Times, serif;
     font-size: 160%;
 }
+
+h1 {
+  text-align:center;
+  color: white;
+}
+
+#Lheader li {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  align-self: center;
+}
+
+#Mheader {
+  text-align: center;
+}
+header.Mheader{
+  /* margin: 30px;
+  min-width: 1200px;
+  outline: white 1px solid; */
+}
+#Profile  li{
+  list-style-type: none;
+  color: white;
+
+}
+
+
+#img{
+  float: right;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
